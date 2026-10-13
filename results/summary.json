@@ -1,0 +1,63 @@
+{
+  "static_probes_caught": "3/3",
+  "seeds": [
+    {
+      "seed": 0,
+      "tasks": 20,
+      "plain_failures": 27,
+      "plain_goal_reached": 0,
+      "contracted_failures": 0,
+      "contracted_prevented": 0,
+      "contracted_goal_reached": 20,
+      "safety_net_prevented": 27
+    },
+    {
+      "seed": 1,
+      "tasks": 20,
+      "plain_failures": 29,
+      "plain_goal_reached": 0,
+      "contracted_failures": 0,
+      "contracted_prevented": 0,
+      "contracted_goal_reached": 20,
+      "safety_net_prevented": 29
+    },
+    {
+      "seed": 2,
+      "tasks": 20,
+      "plain_failures": 26,
+      "plain_goal_reached": 1,
+      "contracted_failures": 0,
+      "contracted_prevented": 0,
+      "contracted_goal_reached": 20,
+      "safety_net_prevented": 26
+    },
+    {
+      "seed": 3,
+      "tasks": 20,
+      "plain_failures": 28,
+      "plain_goal_reached": 0,
+      "contracted_failures": 0,
+      "contracted_prevented": 0,
+      "contracted_goal_reached": 20,
+      "safety_net_prevented": 28
+    },
+    {
+      "seed": 4,
+      "tasks": 20,
+      "plain_failures": 25,
+      "plain_goal_reached": 1,
+      "contracted_failures": 0,
+      "contracted_prevented": 0,
+      "contracted_goal_reached": 20,
+      "safety_net_prevented": 25
+    }
+  ],
+  "plain_failures_per_20": 27.0,
+  "plain_goal_rate": 0.02,
+  "contracted_failures_per_20": 0.0,
+  "contracted_goal_rate": 1.0,
+  "safety_net_prevented_per_20": 27.0,
+  "fanout_speedup": 1.5,
+  "fanout_layers": 2,
+  "kill_gate": "PASS"
+}
